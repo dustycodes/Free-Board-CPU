@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/test_display.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/test_display.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/test_display.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/test_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 test_display.ngc test_display.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o test_display_map.ncd test_display.ngd test_display.pcf 
+par -w -intstyle ise -ol high -mt off test_display_map.ncd test_display.ncd test_display.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml test_display.twx test_display.ncd -o test_display.twr test_display.pcf 
+bitgen -intstyle ise -f test_display.ut test_display.ncd 

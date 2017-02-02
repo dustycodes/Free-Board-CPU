@@ -1,0 +1,3 @@
+verilog work "Mux16.v"
+verilog work "decoder.v"
+verilog work "RegisterFile.v"

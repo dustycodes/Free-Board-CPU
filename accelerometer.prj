@@ -1,0 +1,5 @@
+verilog work "SPI_interface.v"
+verilog work "SCLK_gen.v"
+verilog work "num_display.v"
+verilog work "accel_state.v"
+verilog work "accelerometer.v"

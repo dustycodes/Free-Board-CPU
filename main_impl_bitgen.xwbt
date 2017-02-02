@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\ECE3710\main_impl.ncd
+OUTFILE=C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\ECE3710\main_impl.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\ECE3710
+LICENSE=WebPack
+USER_INFO=211005031_0_0_338

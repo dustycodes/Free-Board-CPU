@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/decoder4.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/decoder4.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/decoder4.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/decoder4.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/decoder4.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/decoder4.syr" 

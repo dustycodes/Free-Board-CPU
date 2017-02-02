@@ -1,0 +1,77 @@
+//0110_0000_0000_0001 // add $r0, $r0, 1
+//0110_1111_0110_0100 // addi $r15, $r15, 100
+//1110_1111_0000_0101 // multi $r15, $r15, 5
+//1110_1111_0110_0100 // multi $r15, $r15, 100
+//0000_0001_0110_0000 // add $r1, $r1, $r0
+//0000_0001_0110_0001 // add $r1, $r1, $r1
+//0000_0001_0110_0001 // add $r1, $r1, $r1
+//0000_0000_0110_0001 // add $r0, $r0, $r1
+//0000_0000_0101_0000 // add $r0, $r0, $r0
+//1100_0001_0000_0101 // branch (overflow) 5
+//0110_0010_0010_0000 // add $r2, $r2, 32
+//0100_0001_0100_0010 // store $r1 ($r2)
+//0100_1111_0000_0010 // load $r16 ($r2)
+//1100_0000_1111_0111 // branch -9
+//0110_0100_1111_1111 // addu $r4, $r4, 255
+//0000_0110_1001_0110 // sub $r6, $r6, $r6
+//0101_0110_0000_1111 // addui $r6, $r6, 15 
+//0000_0101_1000_0110 // cmpu (greater) $r5, $r6
+//1100_0010_0000_0011 // branch (greater) 4
+//0110_0101_0000_0001 // addui $r5, $r5, 1
+//1100_0000_1111_1101 // branch -3
+//1100_0000_1110_1110 // jump -18
+
+
+//0110_0101_0110_0100 // addui $r5, $r5, 100 // initialize upper limit
+//1110_0101_0000_0101 // multi $r5, $r5, 5 // Set upper limit to 500
+//1110_0101_0110_0100 // multi $r5, $r5, 100 // Set upper limit to 500*100=50,000
+//0110_0000_1000_0000 // addui $r0, $r0, 128 // Store address of n-1
+//0110_0001_1000_0001 // addui $r1, $r1, 129 // Store address of n-2
+//0110_0010_0000_0001 // addi $r2, $r2, 1 //Initialize a 1
+//0000_0011_1001_0011 // sub $r3, $r3, $r3 // initialize a 0
+//0100_0010_0100_0000 // store $2($r0) // Store the 1.
+//0100_0011_0100_0001 // store $r3($r1) // Store the 0.
+//0000_0100_1001_0100 // sub $r4, $r4, $r4 // Store zero. Use for counter
+//0100_0010_0000_0000 // load $r2($r0) // Load n-1
+//0100_0011_0000_0001 // load $r3($r1) // Load n-2
+//0000_0011_0110_0010 // addu $r3, $r3, $r2 // Add n-1 and n-2 into n-2
+//1100_0001_1111_1000 // branch (overflow) -8 // If overflow, restart
+//0100_0010_0100_0001 // store $r2($r1) // Store n-1 into n-2 spot 
+//0100_0011_0100_0000 // store $r3($r0) // Store n into n-1 spot
+//0000_1111_1001_1111 // sub $r15, $15, $15 // Clear the value in the LED display
+//0110_1111_1111_0011 // addu $r15, $r15, $r3 // Load n to display
+//0000_0100_1000_0101 // cmpu (greater) $r4 $r5 // Check to see if timer is greater than limit
+//1100_0010_1111_0110 // branch (greater) -10 // Jump to start of Fibo. loop if greater than limit
+//0110_0100_0000_0001 // addui $r4, $r4, 1 // Add 1 to timer.
+//1100_0000_1111_1101 // branch -3 // Branch to the compare.
+
+
+
+
+//// Use $r15 as the LED output. Tied tdirectly to register
+//// Timer upper limit is 1Meg/(clk divider + num cnstructions in loop)
+//0110_0101_0110_0100 // addui $r5, $r5, 100 // initialize upper limit
+//1110_0101_0000_0101 // multi $r5, $r5, 5 // Set upper limit to 500
+//1110_0101_0110_0100 // multi $r5, $r5, 100 // Set upper limit to 500*100=50,000
+//0110_0000_1000_0000 // addui $r0, $r0, 128 // Store address of n-1
+//0110_0001_1000_0001 // addui $r1, $r1, 129 // Store address of n-2
+//0110_0010_0000_0001 // addi $r2, $r2, 1 //Initialize a 1
+//0000_0011_1001_0011 // sub $r3, $r3, $r3 // initialize a 0
+//0100_0010_0100_0000 // store $2($r0) // Store the 1.
+//0100_0011_0100_0001 // store $r3($r1) // Store the 0.
+//// Start of loop
+//0000_0100_1001_0100 // sub $r4, $r4, $r4 // Store zero. Use for counter
+//0100_0010_0000_0000 // load $r2($r0) // Load n-1
+//0100_0011_0000_0001 // load $r3($r1) // Load n-2
+//0000_0011_0110_0010 // addu $r3, $r3, $r2 // Add n-1 and n-2 into n-2
+//1100_0001_1111_1000 // branch (overflow) -8 // If overflow, restart
+//// If no overflow:
+//0100_0010_0100_0001 // store $r2($r1) // Store n-1 into n-2 spot 
+//0100_0011_0100_0000 // store $r3($r0) // Store n into n-1 spot
+//// Display value and wait for 1Meg/clkDivider
+//0000_1111_1001_1111 // sub $r15, $15, $15 // Clear the value in the LED display
+//0110_1111_1111_0011 // addu $r15, $r15, $r3 // Load n to display
+//0000_0100_1000_0101 // cmpu (greater) $r4 $r5 // Check to see if timer is greater than limit
+//1100_0010_1111_0110 // branch (greater) -10 // Jump to start of Fibo. loop if greater than limit
+//0110_0100_0000_0001 // addui $r4, $r4, 1 // Add 1 to timer.
+//1100_0000_1111_1101 // branch -3 // Branch to the compare.

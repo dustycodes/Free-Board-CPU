@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/main_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="main_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/main_test/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/ledState" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ledState[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ledState[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/reg_file/data_out2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/reg_file/enable" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enable[4:0]</obj_property>
+      <obj_property name="ObjectShortName">enable[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/reg_file/select1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">select1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">select1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/reg_file/select2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">select2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">select2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/reg_file/out1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/reg_file/out2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/alu/op" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">op[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/alu/inFlags" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inFlags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">inFlags[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/alu/outFlags" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outFlags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">outFlags[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/alu/result" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">result[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/internal_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">internal_clk</obj_property>
+      <obj_property name="ObjectShortName">internal_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/reg_file/data_out0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/reg_file/data_out1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/reg_file/data_out2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main_test/uut/select_immediate" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">select_immediate</obj_property>
+      <obj_property name="ObjectShortName">select_immediate</obj_property>
+   </wvobject>
+</wave_config>

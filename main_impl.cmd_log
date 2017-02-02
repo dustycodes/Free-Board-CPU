@@ -1,0 +1,59 @@
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 main_impl.ngc main_impl.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_impl_map.ncd main_impl.ngd main_impl.pcf 
+par -w -intstyle ise -ol high -mt off main_impl_map.ncd main_impl.ncd main_impl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main_impl.twx main_impl.ncd -o main_impl.twr main_impl.pcf 
+bitgen -intstyle ise -f main_impl.ut main_impl.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 main_impl.ngc main_impl.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_impl_map.ncd main_impl.ngd main_impl.pcf 
+par -w -intstyle ise -ol high -mt off main_impl_map.ncd main_impl.ncd main_impl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main_impl.twx main_impl.ncd -o main_impl.twr main_impl.pcf 
+bitgen -intstyle ise -f main_impl.ut main_impl.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 main_impl.ngc main_impl.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_impl_map.ncd main_impl.ngd main_impl.pcf 
+par -w -intstyle ise -ol high -mt off main_impl_map.ncd main_impl.ncd main_impl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main_impl.twx main_impl.ncd -o main_impl.twr main_impl.pcf 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx16-csg324-3 main_impl.ngc main_impl.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_impl_map.ncd main_impl.ngd main_impl.pcf 
+par -w -intstyle ise -ol high -mt off main_impl_map.ncd main_impl.ncd main_impl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main_impl.twx main_impl.ncd -o main_impl.twr main_impl.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f main_impl.ut main_impl.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx16-csg324-3 main_impl.ngc main_impl.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_impl_map.ncd main_impl.ngd main_impl.pcf 
+par -w -intstyle ise -ol high -mt off main_impl_map.ncd main_impl.ncd main_impl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main_impl.twx main_impl.ncd -o main_impl.twr main_impl.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f main_impl.ut main_impl.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc constraints.ucf -p xc6slx16-csg324-3 main_impl.ngc main_impl.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o main_impl_map.ncd main_impl.ngd main_impl.pcf 
+par -w -intstyle ise -ol high -mt off main_impl_map.ncd main_impl.ncd main_impl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml main_impl.twx main_impl.ncd -o main_impl.twr main_impl.pcf -ucf constraints.ucf 
+bitgen -intstyle ise -f main_impl.ut main_impl.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main_impl.ngc main_impl_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main_impl.ngc main_impl_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main_impl.ngc main_impl_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main_impl.ngc main_impl_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main_impl.ngc main_impl_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main_impl.ngc main_impl_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main_impl.ngc main_impl_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main_impl.ngc main_impl_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main_impl.ngc main_impl_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/main_impl.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim main_impl.ngc main_impl_synthesis.v 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/main_impl.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/main_impl.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/main_impl.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/main_impl.syr" 

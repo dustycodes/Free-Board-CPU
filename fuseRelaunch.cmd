@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/test_accelerometer_isim_beh.exe" -prj "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/test_accelerometer_beh.prj" "work.test_accelerometer" "work.glbl" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/Mux16.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/Mux16.syr" 

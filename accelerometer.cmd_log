@@ -1,0 +1,1026 @@
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+xst -intstyle ise -ifn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.xst" -ofn "C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/final2/accelerometer.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd "../../Pmod Demo/PmodACL_Demo/ipcore_dir" -nt timestamp -uc accelerometer.ucf -p xc6slx16-csg324-3 accelerometer.ngc accelerometer.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o accelerometer_map.ncd accelerometer.ngd accelerometer.pcf 
+par -w -intstyle ise -ol high -mt off accelerometer_map.ncd accelerometer.ncd accelerometer.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml accelerometer.twx accelerometer.ncd -o accelerometer.twr accelerometer.pcf -ucf accelerometer.ucf 
+bitgen -intstyle ise -f accelerometer.ut accelerometer.ncd 

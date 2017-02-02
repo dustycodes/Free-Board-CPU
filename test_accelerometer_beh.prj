@@ -1,0 +1,7 @@
+verilog work "SPI_interface.v"
+verilog work "SCLK_gen.v"
+verilog work "num_display.v"
+verilog work "accel_state.v"
+verilog work "accelerometer.v"
+verilog work "test_accelerometer.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

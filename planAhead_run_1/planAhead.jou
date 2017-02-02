@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Sep 29 15:30:48 2015
+# Process ID: 8824
+# Log file: C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/Max/Documents/School/Classes/ECE3710/ece-3710/ECE3710/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

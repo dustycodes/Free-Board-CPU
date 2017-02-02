@@ -1,0 +1,142 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.48 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.49 secs
+ 
+--> Reading design: main_impl.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "main_impl.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "main_impl"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : main_impl
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\Mux16.v" into library work
+Parsing module <Mux16>.
+Analyzing Verilog file "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\decoder.v" into library work
+Parsing module <decoder4>.
+Analyzing Verilog file "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\RegisterFile.v" into library work
+Parsing module <RegisterFile>.
+Analyzing Verilog file "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\reg5.v" into library work
+Parsing module <reg5>.
+Analyzing Verilog file "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\ProgramCounter.v" into library work
+Parsing module <ProgramCounter>.
+Analyzing Verilog file "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\num_display.v" into library work
+Parsing module <num_display>.
+Analyzing Verilog file "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\memory.v" into library work
+Parsing module <memory>.
+Analyzing Verilog file "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\controller.v" into library work
+Parsing module <controller>.
+Analyzing Verilog file "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\Main.v" into library work
+Parsing module <Main>.
+Analyzing Verilog file "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\main_impl.v" into library work
+Parsing module <main_impl>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+ERROR:HDLCompiler:329 - "C:\Users\Max\Documents\School\Classes\ECE3710\ece-3710\final2\main_impl.v" Line 47: Target <state> of concurrent assignment or output port connection should be a net type.
+--> 
+
+Total memory usage is 186900 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

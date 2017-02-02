@@ -1,0 +1,57 @@
+NET "led_state[0]" IOSTANDARD = LVCMOS33;
+NET "led_state[1]" IOSTANDARD = LVCMOS33;
+NET "led_state[2]" IOSTANDARD = LVCMOS33;
+NET "led_state[3]" IOSTANDARD = LVCMOS33;
+NET "led[0]" IOSTANDARD = LVCMOS33;
+NET "led[1]" IOSTANDARD = LVCMOS33;
+NET "led[2]" IOSTANDARD = LVCMOS33;
+NET "led[3]" IOSTANDARD = LVCMOS33;
+NET "led[4]" IOSTANDARD = LVCMOS33;
+NET "led[5]" IOSTANDARD = LVCMOS33;
+NET "led[6]" IOSTANDARD = LVCMOS33;
+NET "led[7]" IOSTANDARD = LVCMOS33;
+NET "reset" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+
+NET "led_state[3]" LOC = P17;
+NET "led_state[2]" LOC = P18;
+NET "led_state[1]" LOC = N15;
+NET "led_state[0]" LOC = N16;
+NET "led[7]" LOC = T17;
+NET "led[6]" LOC = T18;
+NET "led[5]" LOC = U17;
+NET "led[4]" LOC = U18;
+NET "led[3]" LOC = M14;
+NET "led[2]" LOC = N14;
+NET "led[1]" LOC = L14;
+NET "led[0]" LOC = M13;
+NET "clk" LOC = V10;
+NET "reset" LOC = C9;
+
+
+NET "CS"		LOC = "K2";			#JB1
+NET "SDO"	LOC = "K1";			#JB2
+NET "SDI"	LOC = "L4";			#JB3
+NET "SCLK_out"	LOC = "L3";			#JB4
+
+NET "lights[7]" IOSTANDARD = LVCMOS33;
+NET "lights[6]" IOSTANDARD = LVCMOS33;
+NET "lights[5]" IOSTANDARD = LVCMOS33;
+NET "lights[4]" IOSTANDARD = LVCMOS33;
+NET "lights[3]" IOSTANDARD = LVCMOS33;
+NET "lights[2]" IOSTANDARD = LVCMOS33;
+NET "lights[1]" IOSTANDARD = LVCMOS33;
+NET "lights[0]" IOSTANDARD = LVCMOS33;
+NET "lights[7]" LOC = T11;
+NET "lights[6]" LOC = R11;
+NET "lights[5]" LOC = N11;
+NET "lights[4]" LOC = M11;
+NET "lights[3]" LOC = V15;
+NET "lights[2]" LOC = U15;
+NET "lights[1]" LOC = V16;
+NET "lights[0]" LOC = U16;
+
+NET "button" IOSTANDARD = LVCMOS33;
+NET "button" LOC = A8;
+NET "button1" IOSTANDARD = LVCMOS33;
+NET "button1" LOC = D9;

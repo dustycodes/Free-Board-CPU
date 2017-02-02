@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\dusty\Documents\ece-3710\with_accel2\final2\Main.ncd
+OUTFILE=C:\Users\dusty\Documents\ece-3710\with_accel2\final2\Main.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\dusty\Documents\ece-3710\with_accel2\final2
+LICENSE=WebPack
+USER_INFO=211005958_0_0_752
