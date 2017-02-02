@@ -15,3 +15,4 @@ The C# code for the Assembler is found here: [Free-Board-Assembler](https://gith
 The assembly code for the game is found here: [Free-Board-Game](https://github.com/dustycodes/Free-Board-Game)
 
 A more in depth look at the project can be seen on the projects report found here: [Documentation](https://github.com/dustycodes/Free-Board-Game/blob/master/logistics/ECE3710FinalReport.pdf)
+[Videos!](https://goo.gl/photos/PM6QMmKMhaMDEv6n8)
